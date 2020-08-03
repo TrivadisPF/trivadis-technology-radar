@@ -1,0 +1,7 @@
+---
+title:      "Platys"
+ring:       adopt
+quadrant:   languages-and-frameworks
+---
+
+changed to adopt as we have invested a lot of work in the tooling and successfully used it to generate/provision the infrastructure of a current Proof-of-Concept project to implement an Enterprise Data Hub for a customer.

@@ -1,0 +1,7 @@
+---
+title:      "HashiCorp Consul"
+ring:       assess
+quadrant:   platforms-and-services
+---
+
+[Consul](https://www.hashicorp.com/products/consul) allows to discover, Register and Resolve services for application workloads across any cloud. Automatically add and remove services based on health checking.
