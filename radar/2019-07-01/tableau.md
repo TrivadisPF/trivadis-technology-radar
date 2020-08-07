@@ -1,7 +1,7 @@
 ---
 title:      "Tableau"
 ring:       adopt
-quadrant:   platform-and-services
+quadrant:   platforms-and-services
 others:     power-bi, superset, redash
 ---
 

@@ -1,7 +1,7 @@
 ---
 title:       "Oracle Apex"
 ring:        adopt
-quadrant:    platform-and-services
+quadrant:    platforms-and-services
 subcategory: lowcode
 ---
 

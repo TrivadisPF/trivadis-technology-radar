@@ -1,7 +1,7 @@
 ---
 title:       "Microsoft Sharepoint"
 ring:        adopt
-quadrant:    platform-and-services
+quadrant:    platforms-and-services
 subcategory: lowcode
 ---
 
