@@ -1,6 +1,7 @@
 ---
 title:      "Quarkus"
 ring:       assess
-quadrant:   languages-and-frameworks---
+quadrant:   languages-and-frameworks
+---
 
 [Quarkus]() ....
