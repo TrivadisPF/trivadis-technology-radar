@@ -1,7 +1,7 @@
 ---
 title:            "Apache Pulsar"
 id:               apache-pulsar
-ring:             assess
+ring:             watch
 quadrant:         platforms-and-services
 type:             general
 building-block:   event-broker 

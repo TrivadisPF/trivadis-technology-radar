@@ -1,6 +1,8 @@
-# AOE Technology Radar
+# Trivadis Technology Radar
 
-A static site generator for AOE Technology Radar
+This radar has been created based on the great work of [AOE Technologies](https://github.com/TrivadisPF/aoe_technology_radar).
+
+A static site generator for Trivadis Technology Radar
 
 ## Usage for your own radar?
 The generator is free to use under Open Source License - in fact there are already some other Radars published based on our Radar and there are also Contributions back.
