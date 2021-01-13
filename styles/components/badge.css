@@ -40,5 +40,9 @@
     background: var(--color-marine);
     border-color: var(--color-marine);
   }
+  &--watch {
+    background: var(--color-violet);
+    border-color: var(--color-violet);
+  }
 
 }
