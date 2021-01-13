@@ -10,7 +10,7 @@ import Flag from './Flag';
 import { groupByFirstLetter } from '../../common/model';
 import { translate } from '../../common/config';
 
-const rings = ['all', 'assess', 'trial', 'hold', 'adopt'];
+const rings = ['all', 'assess', 'trial', 'hold', 'adopt', 'watch'];
 
 const containsSearchTerm = (text = '', term = '') => {
   // TODO search refinement
