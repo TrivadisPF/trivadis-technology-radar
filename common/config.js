@@ -29,7 +29,8 @@ export const rings = [
   'adopt',
   'trial',
   'assess',
-  'hold'
+  'hold',
+  'watch'
 ];
 
 const messages = {
