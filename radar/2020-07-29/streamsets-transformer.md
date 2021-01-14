@@ -4,4 +4,6 @@ ring:       assess
 quadrant:   platforms-and-services
 ---
 
-tbd.
+[StreamSets Transformer](https://streamsets.com/products/dataops-platform/transformer-etl/) is a data pipeline engine designed for any developer or data engineer to build ETL and ML pipelines that execute on Spark-- without coding. Transformer pipelines also provide unparalleled visibility into the execution of Spark applications with data previews and easy trouble-shooting, reducing the time to design and operate pipelines on Spark for developers of all skill levels. 
+
+StreamSets Transformer is interesting for people already working with/having experience with StreamSets DataCollector as it provides a similar interface for implementing pipelines running on Spark. On the other hand, it is partially a competitor to biGENIUS, not supporting automation but allowing a much easier approach for developing and running Spark pipelines. 
