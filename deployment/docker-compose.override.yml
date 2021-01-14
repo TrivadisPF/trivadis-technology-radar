@@ -8,5 +8,5 @@ services:
     labels:
       com.centurylinklabs.watchtower.enable: 'true'
     ports:
-      - 8081:8080
+      - 28540:8080
     
