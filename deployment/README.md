@@ -11,7 +11,7 @@ Create a Virtual Machine
 ```
 export GITHUB_PROJECT=trivadis-technology-radar
 export GITHUB_OWNER=TrivadisPF
-export DATAPLATFORM_HOME=docker
+export DATAPLATFORM_HOME=deployment
 export DOCKER_COMPOSE_VERSION=1.25.3
 export PLATYS_VERSION=2.4.0
 export NETWORK_NAME=eth0
