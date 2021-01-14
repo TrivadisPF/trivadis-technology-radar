@@ -16,8 +16,8 @@ However please be aware:
 ## Installation
 
 ```
-git clone git@github.com:AOEpeople/aoe_technology_radar.git
-cd aoe_technology_radar
+git clone git@github.com:trivadispf/trivadis-technology-radar.git
+cd trivadis-technology-radar 
 yarn
 yarn watch
 ```
@@ -25,10 +25,16 @@ yarn watch
 _A new [browser tab](http://127.0.0.1:8080/techradar) should open up - wait
 until last command has finished and refresh._
 
+## Running in docker
+
+```
+docker run -p 8080:8080 trivadis/trivadis-technology-radar
+```
+
 ## Usage
 
 For a new Technology Radar release, create a folder of the release date
-(YYYY-MM-DD) under `/radar`. In each release folder create a folder for every
+(`YYYY-MM-DD`) under `/radar`. In each release folder create a folder for every
 quadrant and place the items there.
 
 ### Maintaining items
