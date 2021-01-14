@@ -1,0 +1,50 @@
+# =======================================================================
+# Platform Name            platys-platform
+# Platform Stack:          trivadis/platys-modern-data-platform
+# Platform Stack Version:  1.11.0-preview
+# =======================================================================
+version: '3.5'
+networks:
+  default:
+    name: platys-platform
+services:
+  #  ================================== markdown-viewer ========================================== #
+  markdown-viewer:
+    image: minimum/markdown-web:latest
+    container_name: markdown-viewer
+    hostname: markdown-viewer
+    labels:
+      com.platys.webui.title: Markdown Viewer UI
+      com.platys.webui.url: http://${PUBLIC_IP}:80
+    ports:
+      - 80:80
+    volumes:
+      - ./documentation:/home/python/markdown
+      - ./data-transfer:/data-transfer
+    restart: unless-stopped
+  markdown-renderer:
+    image: trivadis/jinja2-renderer:latest
+    container_name: markdown-renderer
+    hostname: markdown-renderer
+    environment:
+      USE_PUBLIC_IP: 'True'
+      PUBLIC_IP: ${PUBLIC_IP}
+      DOCKER_HOST_IP: ${DOCKER_HOST_IP}
+      DATAPLATFORM_HOME: ${DATAPLATFORM_HOME}
+    volumes:
+      - ./documentation/templates:/templates
+      - ./documentation/templates:/scripts
+      - .:/variables
+      - ./documentation:/output
+      - ./data-transfer:/data-transfer
+  #  ================================== watchtower ========================================== #
+  watchtower:
+    image: containrrr/watchtower:1.1.6
+    container_name: watchtower
+    hostname: watchtower
+    volumes:
+      - ./data-transfer:/data-transfer
+      - ${HOME}/.docker/config.json:/config.json
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --cleanup --label-enable --interval 60 --trace --debug
+    restart: unless-stopped
