@@ -1,6 +1,6 @@
 ---
 title:      "Portainer"
-ring:       asses
+ring:       assess
 quadrant:   platforms-and-services
 ---
 
