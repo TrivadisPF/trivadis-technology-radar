@@ -509,6 +509,18 @@
       #
       AXON_enable: false
       #
+      # ===== Trino ========
+      #
+      TRINO_enable: true
+      # "single" or "cluster" install
+      TRINO_install: single
+      TRINO_workers: 3
+      # either starburstdata or oss
+      TRINO_edition: 'starburstdata'
+      TRINO_kafka_table_names: ''
+      # Trino-CLI is enabled by default
+      TRINO_CLI_enable: true
+            #
       # ===== Presto ========
       #
       PRESTO_enable: false
