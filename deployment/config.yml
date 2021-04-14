@@ -4,7 +4,7 @@
       platys:
           platform-name: 'platys-platform'
           platform-stack: 'trivadis/platys-modern-data-platform'
-          platform-stack-version: '1.11.0-preview'
+          platform-stack-version: '1.12.0-preview'
           structure: 'flat'
       # ========================================================================
       # Global configuration, valid for all or a group of services 
@@ -241,7 +241,7 @@
       #
       # =====  Streamsets Data Collector ========
       #
-      STREAMSETS_enable: false
+      STREAMSETS_enable: true
       STREAMSETS_volume_map_data: false
       STREAMSETS_volume_map_logs: false
       STREAMSETS_volume_map_security_policy: false
@@ -249,6 +249,8 @@
       STREAMSETS_additional_port_mappings: 0
       # one of 'none', 'basic', 'digest', or 'form'
       STREAMSETS_http_authentication: form
+      STREAMSETS_stage_libs: 'streamsets-datacollector-apache-kafka_2_6-lib,streamsets-datacollector-aws-lib,streamsets-datacollector-azure-lib,streamsets-datacollector-groovy_2_4-lib,streamsets-datacollector-jdbc-lib'
+
       #
       # =====  Streamsets Transformer ========
       #
@@ -549,7 +551,7 @@
       #
       #=====  MinIO Object Storage ========
       #
-      MINIO_enable: false
+      MINIO_enable: true
       MINIO_volume_map_data: false
       MINIO_access_key: V42FCGRVMK24JJ8DHUYG
       MINIO_secret_key: bKhWxVF3kQoLY9kFmt91l+tDrEoZjqnWXzY9Eza

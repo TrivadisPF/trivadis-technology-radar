@@ -1,13 +1,90 @@
 # =======================================================================
 # Platform Name            platys-platform
 # Platform Stack:          trivadis/platys-modern-data-platform
-# Platform Stack Version:  1.11.0-preview
+# Platform Stack Version:  1.12.0-preview
 # =======================================================================
 version: '3.5'
 networks:
   default:
     name: platys-platform
 services:
+  #  ================================== StreamSets DataCollector ========================================== #
+  streamsets-1:
+    image: streamsets/datacollector:3.22.1
+    container_name: streamsets-1
+    hostname: streamsets-1
+    labels:
+      com.platys.webui.title: StreamSets Data Collector UI
+      com.platys.webui.url: http://${PUBLIC_IP}:18630
+      com.platys.restapi.title: StreamSets Data Collector REST API
+      com.platys.restapi.url: http://${PUBLIC_IP}:18630/collector/restapi
+    ports:
+      - 18630:18630
+    environment:
+      SDC_OFFSET_DIRECTORY: /data/custom-offset-el
+      SDC_INSTALL_STAGES: streamsets-datacollector-apache-kafka_2_6-lib,streamsets-datacollector-aws-lib,streamsets-datacollector-azure-lib,streamsets-datacollector-groovy_2_4-lib,streamsets-datacollector-jdbc-lib
+      SDC_INSTALL_ENTERPRISE_STAGES: ''
+      SDC_JAVA_OPTS: -Xmx2g -Xms2g
+      SDC_JAVA8_OPTS: -XX:+UseG1GC
+      SDC_CONF_MONITOR_MEMORY: 'true'
+      SDC_CONF_PIPELINE_MAX_RUNNERS_COUNT: 50
+      SDC_CONF_http_authentication: form
+    volumes:
+      - ./data-transfer:/data-transfer
+      - ./conf/streamsets/pre-docker-entrypoint.sh:/pre-docker-entrypoint.sh
+      - ./plugins/streamsets/user-libs:/opt/streamsets-datacollector-user-libs:Z
+    ulimits:
+      nofile:
+        soft: 32768
+        hard: 32768
+    user: '1000'
+    command:
+      - dc
+      - -exec
+    entrypoint:
+      - /pre-docker-entrypoint.sh
+    restart: unless-stopped
+  #  ================================== Minio ========================================== #
+  minio-1:
+    image: minio/minio:RELEASE.2021-02-01T22-56-52Z
+    container_name: minio-1
+    hostname: minio-1
+    labels:
+      com.platys.webui.title: MinIO UI
+      com.platys.webui.url: http://${PUBLIC_IP}:9000
+    ports:
+      - 9000:9000
+    environment:
+      MINIO_ACCESS_KEY: V42FCGRVMK24JJ8DHUYG
+      MINIO_SECRET_KEY: bKhWxVF3kQoLY9kFmt91l+tDrEoZjqnWXzY9Eza
+      MINIO_REGION_NAME: us-east-1
+      MINIO_BROWSER: 'True'
+      #MINIO_DEFAULT_BUCKETS: 'admin-bucket,'
+    volumes:
+      - ./data-transfer:/data-transfer
+    command: server /data
+    restart: unless-stopped
+  #  ================================== Minio MC ========================================== #
+  minio-mc:
+    image: minio/mc:latest
+    container_name: minio-mc
+    hostname: minio-mc
+    volumes:
+      - ./data-transfer:/data-transfer
+      - ./conf/minio/config.json:/root/.mc/config.json
+    entrypoint:
+      - /bin/sh
+      - -c
+      - |
+        sleep 10
+        mc mb --ignore-existing minio-1/admin-bucket
+        for i in $$(echo "" | sed "s/,/ /g")
+        do
+          mc mb --ignore-existing minio-1/$$i
+        done
+        #
+        while [ 1 -eq 1 ];do sleep 60;done
+    restart: unless-stopped
   #  ================================== cAdvisor ========================================== #
   wetty:
     image: svenihoney/wetty:latest
