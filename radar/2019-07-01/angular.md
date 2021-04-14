@@ -1,9 +1,9 @@
 ---
+id:     		angular
 title:          "Angular"
 info:           "a modern web framework"
 ring:           adopt
 quadrant:       languages-and-frameworks
-skills:         "angular"
 relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]

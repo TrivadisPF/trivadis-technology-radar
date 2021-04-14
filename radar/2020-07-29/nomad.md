@@ -1,7 +1,15 @@
 ---
-title:      "Nomad"
-ring:       assess
-quadrant:   platforms-and-services
+id:				nomad
+title:      	"Nomad"
+ring:       	assess
+quadrant:   	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Nomad](https://www.nomadproject.io/) is a simple and flexible workload orchestrator to deploy and manage containers and non-containerized applications across on-prem and clouds at scale.

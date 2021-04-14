@@ -1,8 +1,8 @@
 ---
-id:				service-based-arch
-title:      	"Service-Based Architecture"
+id:				streamsets
+title:      	"StreamSets Data Collector"
 ring:       	adopt
-quadrant:   	architecture-methods-and-patterns
+quadrant:   	platforms-and-services
 relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
@@ -12,4 +12,4 @@ status:			draft
 featured:       true
 ---
 
-Java
+StreamSets Data Collector....

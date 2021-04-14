@@ -1,7 +1,15 @@
 ---
-title:      "Ionic"
-ring:       adopt
-quadrant:   languages-and-frameworks
+id:				iconic
+title:      	"Ionic"
+ring:       	adopt
+quadrant:   	languages-and-frameworks
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Ionic](https://ionicframework.com/) is a complete open-source SDK for hybrid mobile app development. The original version was released in 2013 and built on top of AngularJS and Apache Cordova. 

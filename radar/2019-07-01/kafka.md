@@ -1,7 +1,15 @@
 ---
-title:      "Kafka / Confluent Enterprise"
-ring:       adopt
-quadrant:   data-management
+id:				kafka
+title:      	"Kafka / Confluent Enterprise"
+ring:       	adopt
+quadrant:   	data-management
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Apache Kafka](https://kafka.apache.org/) ...

@@ -1,8 +1,15 @@
 ---
-title:      "Apache Spark"
-ring:       adopt
-quadrant:   platforms-and-services
-type:       general
+id:				spark
+title:      	"Apache Spark"
+ring:       	adopt
+quadrant:   	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Apache Spark](https://spark.apache.org/) is a unified analytics engine for large-scale data processing. 

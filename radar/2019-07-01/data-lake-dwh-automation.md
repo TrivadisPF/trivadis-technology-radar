@@ -1,7 +1,15 @@
 ---
-title:      "Data Lake & Data Warehouse Automation"
-ring:       adopt
-quadrant:   architecture-methods-and-patterns
+id:				dwh-automation
+title:      	"Data Lake & Data Warehouse Automation"
+ring:       	adopt
+quadrant:   	architecture-methods-and-patterns
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 tbd.

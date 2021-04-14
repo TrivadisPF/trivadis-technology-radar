@@ -1,7 +1,15 @@
 ---
-title:      "StreamSets Transformer"
-ring:       assess
-quadrant:   platforms-and-services
+id:				streamsets-transformer
+title:      	"StreamSets Transformer"
+ring:       	assess
+quadrant:   	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [StreamSets Transformer](https://streamsets.com/products/dataops-platform/transformer-etl/) is a data pipeline engine designed for any developer or data engineer to build ETL and ML pipelines that execute on Spark-- without coding. Transformer pipelines also provide unparalleled visibility into the execution of Spark applications with data previews and easy trouble-shooting, reducing the time to design and operate pipelines on Spark for developers of all skill levels. 

@@ -1,10 +1,15 @@
 ---
-title:            "Apache Pulsar"
-id:               apache-pulsar
-ring:             watch
-quadrant:         platforms-and-services
-type:             general
-building-block:   event-broker 
+id: 			pulsar
+title:          "Apache Pulsar"
+ring:           watch
+quadrant:       platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Apache Pulsar](https://pulsar.apache.org/) is an open-source distributed pub-sub messaging system originally created at Yahoo and now part of the Apache Software Foundation.

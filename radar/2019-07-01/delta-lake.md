@@ -1,7 +1,15 @@
 ---
-title:      "Delta Lake"
-ring:       assess
-quadrant:   languages-and-frameworks
+id:				delta-lake
+title:      	"Delta Lake"
+ring:       	assess
+quadrant:   	languages-and-frameworks
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Delta Lake](delta.io) is an open-source storage layer that brings ACID transactions to Apache Spark™ and big data workloads.

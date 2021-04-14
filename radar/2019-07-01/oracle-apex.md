@@ -1,8 +1,15 @@
 ---
-title:       "Oracle Apex"
-ring:        adopt
-quadrant:    platforms-and-services
-subcategory: lowcode
+id:				apex
+title:       	"Oracle Apex"
+ring:        	adopt
+quadrant:    	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Oracle Apex](https://apex.oracle.com/en/) is a low-code development platform that enables you to build scalable, secure enterprise apps, with world-class features, that can be deployed anywhere.

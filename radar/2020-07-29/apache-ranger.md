@@ -1,7 +1,15 @@
 ---
-title:      "Apache Ranger"
-ring:       assess
-quadrant:   platforms-and-services
+id:     		ranger
+title:      	"Apache Ranger"
+ring:       	assess
+quadrant:   	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Apache Ranger](https://ranger.apache.org/) is a framework to enable, monitor and manage comprehensive data security across the Hadoop platform and related components.

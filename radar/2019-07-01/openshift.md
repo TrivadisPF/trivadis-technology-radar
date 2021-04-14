@@ -1,7 +1,15 @@
 ---
-title:      "OpenShift"
-ring:       adopt
-quadrant:   platforms-and-services
+id:				openshift
+title:     	 	"OpenShift"
+ring:       	adopt
+quadrant:   	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [FHN] 
+status:			draft
+featured:       true
 ---
 
 OpenShift ...

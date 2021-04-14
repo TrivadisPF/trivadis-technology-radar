@@ -1,7 +1,15 @@
 ---
-title:      "Python"
-ring:       adopt
-quadrant:   languages-and-frameworks
+id:				python
+title:      	"Python"
+ring:       	adopt
+quadrant:   	languages-and-frameworks
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Python](https://www.python.org/) is an interpreted, high-level, general-purpose programming language. 

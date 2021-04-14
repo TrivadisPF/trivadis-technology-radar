@@ -1,7 +1,15 @@
 ---
-title:      "Trivadis Toolbox"
-ring:       adopt
-quadrant:   languages-and-frameworks
+id:				tvd-toolbox
+title:      	"Trivadis Toolbox"
+ring:       	adopt
+quadrant:   	languages-and-frameworks
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Trivadis Toolbox](https://www.trivadis.com/en/trivadis-toolbox) offers agile and lean Solutions for your most important operational tasks in Oracle and Microsoft database and application server landscapes. Our proven tools reduce administration workloads in conjunction with enhanced operating reliability through the automation of standards and best practices.

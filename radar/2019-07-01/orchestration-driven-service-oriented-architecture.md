@@ -1,7 +1,15 @@
 ---
-title:      "Orchestration-Driven Service-Oriented Architecture"
-ring:       hold
-quadrant:   architecture-methods-and-patterns
+id:				orchestration-soa
+title:      	"Orchestration-Driven Service-Oriented Architecture"
+ring:       	hold
+quadrant:   	architecture-methods-and-patterns
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 Java

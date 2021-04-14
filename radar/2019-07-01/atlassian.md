@@ -1,7 +1,15 @@
 ---
-title:      "Atlassian"
-ring:       adopt
-quadrant:   platforms-and-services
+id:				atlassian
+title:      	"Atlassian"
+ring:       	adopt
+quadrant:   	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 Atlassian ...

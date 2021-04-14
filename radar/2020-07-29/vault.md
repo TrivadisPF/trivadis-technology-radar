@@ -1,7 +1,15 @@
 ---
-title:      "HashiCorp Vault"
-ring:       assess
-quadrant:   platforms-and-services
+id:				vault
+title:      	"HashiCorp Vault"
+ring:       	assess
+quadrant:   	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Vault](https://www.hashicorp.com/products/vault) manage secrets and protect sensitive data.

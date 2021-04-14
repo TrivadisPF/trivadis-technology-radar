@@ -1,7 +1,15 @@
 ---
-title:      "Oracle Directory Services"
-ring:       adopt
-quadrant:   platforms-and-services
+id:				oracle-directory-service
+title:      	"Oracle Directory Services"
+ring:       	adopt
+quadrant:   	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 Oracle Internet Directory and Oracle Unified Directory...

@@ -1,8 +1,15 @@
 ---
-title:      "Apache Oozie"
-ring:       adopt
-quadrant:   platforms-and-services
-type:       general
+id				oozie
+title:      	"Apache Oozie"
+ring:       	adopt
+quadrant:   	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Apache Oozie](https://oozie.apache.org/) is a workflow scheduler system to manage Apache Hadoop jobs.

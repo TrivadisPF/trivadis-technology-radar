@@ -1,7 +1,15 @@
 ---
-title:      "Vagrant"
-ring:       adopt
-quadrant:   languages-and-frameworks
+id:				vagrant
+title:      	"Vagrant"
+ring:       	adopt
+quadrant:   	languages-and-frameworks
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 HashiCorp Vagrant ...

@@ -1,7 +1,15 @@
 ---
-title:      "Trivadis biGENiUS"
-ring:       adopt
-quadrant:   platforms-and-services
+id:				bigenius
+title:      	"Trivadis biGENIUS"
+ring:       	adopt
+quadrant:   	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [WEL] 
+status:			draft
+featured:       true
 ---
 
 biGENIUS automates the lifecycle of analytical data management solutions (e.g. data warehouses, data lakes, data marts, real-time analytics, etc.)

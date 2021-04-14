@@ -1,8 +1,15 @@
 ---
-title:       "Microsoft Power Apps"
-ring:        adopt
-quadrant:    platforms-and-services
-subcategory: lowcode
+id:				power-apps
+title:       	"Microsoft Power Apps"
+ring:        	adopt
+quadrant:    	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Microsoft Power Apps](https://powerapps.microsoft.com/en-us/) is a suite of apps, services, connectors and data platform that provides a rapid application development environment to build custom apps for your business needs. Using Power Apps, you can quickly build custom business apps that connect to your business data stored either in the underlying data platform (Common Data Service) or in various online and on-premises data sources (SharePoint, Excel, Office 365, Dynamics 365, SQL Server, and so on).

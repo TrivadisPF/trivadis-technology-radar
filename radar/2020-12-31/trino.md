@@ -1,8 +1,15 @@
 ---
-title:      "Trino"
-ring:       watch
-quadrant:   platforms-and-services
-type:       general
+id:				trino
+title:      	"Trino"
+ring:       	watch
+quadrant:   	platforms-and-services
+relatedTo:		[]
+alternativeTo:	[]
+skillsNeeded:	[]
+supportsTvdBB:	[]
+owners:         [] 
+status:			draft
+featured:       true
 ---
 
 [Trino](https://trino.io/) is a distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources.
