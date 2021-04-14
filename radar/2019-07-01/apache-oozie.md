@@ -1,5 +1,5 @@
 ---
-id				oozie
+id:				oozie
 title:      	"Apache Oozie"
 ring:       	adopt
 quadrant:   	platforms-and-services
