@@ -3,12 +3,12 @@ id:				spark
 title:      	"Apache Spark"
 ring:       	adopt
 quadrant:   	platforms-and-services
-relatedTo:		[]
-alternativeTo:	[]
-skillsNeeded:	[]
+relatedTo:		[delta-lake]
+alternativeTo:	[hadoop-mapreduce]
+skillsNeeded:	[spark]
 supportsTvdBB:	[]
-owners:         [] 
-status:			draft
+owners:         [GUS] 
+status:			accepted
 featured:       true
 ---
 
