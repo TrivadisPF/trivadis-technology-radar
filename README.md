@@ -46,9 +46,12 @@ where the attributes of the item are listed:
 
 ```
 ---
-title:      "React"
-ring:       adopt
-quadrant:   languages-and-frameworks
+title:      		"Technology"
+ring:       		adopt
+quadrant:   		languages-and-frameworks
+skills:     		react
+releated:	  		"Other Technology"
+building-block:	"name of the building block"
 ---
 
 Text goes here. You can use **markdown** here.
