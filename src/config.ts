@@ -1,13 +1,13 @@
 import {Item} from './model';
 
-export const radarName = process.env.RADAR_NAME || 'AOE Technology Radar'
-export const radarNameShort = radarName;
+export const radarName = 'Trivadis Platform Factory Technology Radar';
+export const radarNameShort = 'Technology Radar';
 
 export const quadrants = [
-    'languages-and-frameworks',
-    'methods-and-patterns',
-    'platforms-and-aoe-services',
-    'tools',
+  'languages-and-frameworks',
+  'architecture-methods-and-patterns',
+  'platforms-and-services',
+  'data-management',
 ];
 
 export const rings = [
@@ -15,7 +15,8 @@ export const rings = [
     'adopt',
     'trial',
     'assess',
-    'hold'
+    'hold',
+    'watch'
 ] as const;
 
 export type Ring = typeof rings[number]
@@ -24,11 +25,11 @@ export const getItemPageNames = (items: Item[]) => items.map(item => `${item.qua
 
 export const showEmptyRings = false;
 
-const messages: { [k: string]: string } = {
-    'languages-and-frameworks': 'Languages & Frameworks',
-    'methods-and-patterns': 'Methods & Patterns',
-    'platforms-and-aoe-services': 'Platforms and Operations',
-    'tools': 'Tools',
+const messages = {
+  'languages-and-frameworks': 'Languages & Frameworks',
+  'architecture-methods-and-patterns': 'Architecture, Methods & Patterns',
+  'platforms-and-services': 'Platforms and Services',
+  'data-management': 'Data Management',
 };
 
 export const translate = (key: string) => (messages[key] || '-');

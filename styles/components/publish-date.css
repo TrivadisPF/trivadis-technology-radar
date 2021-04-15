@@ -1,8 +1,0 @@
-.publish-date {
-    color: var(--color-gray-normal);
-    text-align: right;
-
-    @media (--until-sm) {
-        text-align: center;
-    }
-}
