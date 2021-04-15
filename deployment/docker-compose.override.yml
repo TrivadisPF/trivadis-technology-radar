@@ -2,11 +2,20 @@ version: "3.5"
 
 services:
   techradar:
-    image: trivadis/trivadis-technology-radar:latest
+    image: trivadis/trivadis-technology-radar:0.1.0
     container_name: techradar
     hostname: techradar
     labels:
       com.centurylinklabs.watchtower.enable: 'true'
     ports:
       - 28540:8080
+
+  techradar-preview:
+    image: trivadis/trivadis-technology-radar:preview
+    container_name: techradar-preview
+    hostname: techradar-preview
+    labels:
+      com.centurylinklabs.watchtower.enable: 'true'
+    ports:
+      - 28541:8080
     
