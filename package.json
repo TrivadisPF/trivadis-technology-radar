@@ -16,7 +16,7 @@
     "clean": "babel-node ./tasks/clean.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Trivadis AG <contact-de@trivadis.com> (http://www.aoe.com)",
+  "author": "AOE GmbH <contact-de@aoe.com> (http://www.aoe.com)",
   "license": "Apache-2.0",
   "dependencies": {
     "autoprefixer": "7.1.6",
@@ -51,6 +51,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TrivadisPF/aoe_technology_radar.git"
+    "url": "https://github.com/AOEpeople/aoe_technology_radar.git"
   }
 }
