@@ -76,7 +76,7 @@ services:
     restart: unless-stopped
   #  ================================== Cloudbeaver ========================================== #
   cloudbeaver:
-    image: trivadis/cloudbeaver:latest
+    image: dbeaver/cloudbeaver:latest
     container_name: cloudbeaver
     hostname: cloudbeaver
     labels:
