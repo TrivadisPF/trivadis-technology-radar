@@ -503,7 +503,7 @@
       #
       # ===== Quix Presto UI ========
       #
-      QUIX_enable: false
+      QUIX_enable: true
       #
       # ===== Event Store ========
       #
