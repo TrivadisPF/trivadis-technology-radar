@@ -8,7 +8,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Thomas Gassmann] 
+knowHowPageURI:	"https://tvdit.sharepoint.com/sites/angularcommunity"
 status:			draft
 featured:       true
 ---

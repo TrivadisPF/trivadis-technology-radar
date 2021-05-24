@@ -7,9 +7,10 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Peter Welker]
+knowHowPageURI:	"" 
 status:			draft
 featured:       true
 ---
 
-tbd.
+Data Lake & Data Warehouse Automation ....

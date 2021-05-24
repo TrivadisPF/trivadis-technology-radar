@@ -7,9 +7,10 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz]
+knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---
 
-Spring Boot...
+[Spring Boot](https://spring.io/projects/spring-boot) is an open source Java-based framework used to create Microservices. It is developed by Pivotal Team and is used to build stand-alone and production ready spring applications. This chapter will give you an introduction to Spring Boot and familiarizes you with its basic concepts.

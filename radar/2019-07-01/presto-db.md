@@ -1,5 +1,5 @@
 ---
-id:				prestodb
+id:				presto-db
 title:      	"Presto DB"
 ring:       	trial
 quadrant:   	platforms-and-services
@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz]
+knowHowPageURI:	""   
 status:			draft
 featured:       true
 ---

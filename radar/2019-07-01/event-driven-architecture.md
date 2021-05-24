@@ -7,9 +7,10 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz] 
+knowHowPageURI:	""
 status:			draft
 featured:       true
 ---
 
-Event Driven Architecture is an architectural style ...
+Event Driven Architecture is an architectural style promoting the production, detection, consumption of, and reaction to events. 

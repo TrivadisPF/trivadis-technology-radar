@@ -1,5 +1,5 @@
 ---
-id:				power-automate
+id:				microsoft-power-automate
 title:       	"Microsoft Power Automate"
 ring:        	adopt
 quadrant:    	languages-and-frameworks
@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [?] 
+knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---

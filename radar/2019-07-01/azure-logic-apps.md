@@ -1,5 +1,5 @@
 ---
-id:				logic-apps
+id:				azure-logic-apps
 title:       	"Azure Logic Apps"
 ring:        	adopt
 quadrant:    	platforms-and-services
@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [?] 
+knowHowPageURI:	""
 status:			draft
 featured:       true
 ---

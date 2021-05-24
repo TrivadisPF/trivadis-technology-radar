@@ -1,5 +1,5 @@
 ---
-id:				ms-teams
+id:				microsoft-teams
 title:       	"Microsoft Teams"
 ring:        	adopt
 quadrant:    	platforms-and-services
@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [?]
+knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---

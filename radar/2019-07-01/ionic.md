@@ -1,5 +1,5 @@
 ---
-id:				iconic
+id:				ionic
 title:      	"Ionic"
 ring:       	adopt
 quadrant:   	languages-and-frameworks
@@ -8,6 +8,7 @@ alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
 owners:         [] 
+knowHowPageURI:	""
 status:			draft
 featured:       true
 ---

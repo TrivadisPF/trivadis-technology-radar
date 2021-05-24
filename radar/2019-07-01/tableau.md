@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	["power-bi", "superset", "redas"]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [?]
+knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---

@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Markus Bente] 
+knowHowPageURI:	""
 status:			draft
 featured:       true
 ---

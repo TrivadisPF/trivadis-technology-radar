@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz]
+knowHowPageURI:	"Martin Zablocki"   
 status:			draft
 featured:       true
 ---

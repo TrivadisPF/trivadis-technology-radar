@@ -1,5 +1,5 @@
 ---
-id:				dynamics
+id:				microsoft-dynamics
 title:       	"Microsoft Dynamics 365"
 ring:        	adopt
 quadrant:    	platforms-and-services
@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [?]
+knowHowPageURI:	""   
 status:			draft
 featured:       true
 ---

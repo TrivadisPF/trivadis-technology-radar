@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [WEL] 
+owners:         [Peter Welker]
+knowHowPageURI:	"" 
 status:			draft
 featured:       true
 ---

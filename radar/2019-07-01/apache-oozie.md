@@ -4,10 +4,11 @@ title:      	"Apache Oozie"
 ring:       	adopt
 quadrant:   	platforms-and-services
 relatedTo:		[]
-alternativeTo:	[]
+alternativeTo:	[airflow]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz] 
+knowHowPageURI:	""
 status:			draft
 featured:       true
 ---

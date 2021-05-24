@@ -7,7 +7,8 @@ relatedTo:		[delta-lake]
 alternativeTo:	[hadoop-mapreduce]
 skillsNeeded:	[spark]
 supportsTvdBB:	[]
-owners:         [GUS] 
+owners:         [Guido Schmutz] 
+knowHowPageURI:	"" 
 status:			accepted
 featured:       true
 ---

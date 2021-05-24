@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz]
+knowHowPageURI:	"https://tvdit.sharepoint.com/sites/PlatformFactoryPublic/SitePages/Platys---Modern-Data-Platform-in-a-Box.aspx"   
 status:			draft
 featured:       true
 ---

@@ -7,9 +7,10 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [GUS] 
+owners:         [Guido Schmutz] 
+knowHowPageURI:	""
 status:			draft
 featured:       true
 ---
 
-Neo4J ...
+[Minio](https://min.io/) is a High Performance, open-source Object Storage. It is API compatible with Amazon S3 cloud storage service. 

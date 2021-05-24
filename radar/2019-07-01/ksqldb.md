@@ -7,9 +7,10 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz] 
+knowHowPageURI:	"" 
 status:			draft
 featured:       true
 ---
 
-ksqlDB enables you to build event streaming applications with the same ease and familiarity of building traditional applications on a relational database. It also simplifies the underlying architecture for these applications so you can build powerful, real-time systems with just a few SQL statements.
+[ksqlDB](https://ksqldb.io/) enables you to build event streaming applications with the same ease and familiarity of building traditional applications on a relational database. It also simplifies the underlying architecture for these applications so you can build powerful, real-time systems with just a few SQL statements.

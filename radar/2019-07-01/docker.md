@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Stefan Oehrli]
+knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---
