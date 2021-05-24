@@ -499,11 +499,11 @@
       #
       # ===== Cloudbeaver DB UI ========
       #
-      CLOUDBEAVER_enable: false
+      CLOUDBEAVER_enable: true
       #
       # ===== Quix Presto UI ========
       #
-      QUIX_enable: false
+      QUIX_enable: true
       #
       # ===== Event Store ========
       #
