@@ -7,8 +7,7 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [Guido Schmutz] 
-knowHowPageURI:	""  
+owners:         [Guido Schmutz]  
 status:			draft
 featured:       true
 ---

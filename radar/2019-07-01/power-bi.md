@@ -7,7 +7,7 @@ relatedTo:		[]
 alternativeTo:	["superset", "tableau"]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [?] 
+owners:         [] 
 knowHowPageURI:	""  
 status:			draft
 featured:       true

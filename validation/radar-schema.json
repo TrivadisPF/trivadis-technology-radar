@@ -7,6 +7,7 @@
     "default": {},
     "examples": [
         {
+            "id": "angular",
             "title": "Angular",
             "info": "a modern web framework",
             "ring": "adopt",
@@ -16,7 +17,8 @@
             "alternativeTo": [],
             "skillsNeeded": [],
             "supportsTvdBB": [],
-            "owners": [],
+            "owners": ["?"],
+            "knowHowPageURI": "",
             "status": "draft",
             "featured": true,
             "__content": "\n\n[Angular](https://angular.io/) s a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS. \n\n"
@@ -27,7 +29,8 @@
         "title",
         "ring",
         "quadrant",
-        "owners" 
+        "owners",
+        "status" 
     ],
     "properties": {
         "id": {
@@ -82,16 +85,6 @@
                 "languages-and-frameworks"
             ]
         },
-        "skills": {
-            "$id": "#/properties/skills",
-            "type": "string",
-            "title": "The skills schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": "",
-            "examples": [
-                "angular"
-            ]
-        },
         "relatedTo": {
             "$id": "#/properties/relatedTo",
             "type": "array",
@@ -105,7 +98,8 @@
             "items": {
                 "$id": "#/properties/relatedTo/items"
             }
-        },
+        },        
+
         "alternativeTo": {
             "$id": "#/properties/alternativeTo",
             "type": "array",
@@ -127,7 +121,7 @@
             "description": "An explanation about the purpose of this instance.",
             "default": [],
             "examples": [
-                []
+                ["angular"]
             ],
             "additionalItems": true,
             "items": {
@@ -161,6 +155,16 @@
             "items": {
                 "$id": "#/properties/owners/items"
             }
+        },
+        "knowHowPageURI": {
+            "$id": "#/properties/knowHowPageURI",
+            "type": "string",
+            "title": "The link to the Trivadis Know How Page",
+            "description": "A link to a page with additional know how on the technology.",
+            "default": "",
+            "examples": [
+                "http://www.trivadis.com"
+            ]
         },
         "status": {
             "$id": "#/properties/status",

@@ -4,13 +4,13 @@ title:      	"Ansible"
 ring:       	adopt
 quadrant:   	languages-and-frameworks
 relatedTo:		[]
-alternativeTo:	[]
+alternativeTo:	["Terraform"]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [?] 
+owners:         [Frank Heilmann] 
 knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---
 
-Ansible ...
+[Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration management, and application-deployment tool enabling infrastructure as code.

@@ -7,7 +7,7 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [?] 
+owners:         ["Parinaz Ameri"] 
 knowHowPageURI:	""  
 status:			draft
 featured:       true

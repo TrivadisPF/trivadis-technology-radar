@@ -7,8 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [?]
-wHowPageURI:    ""   
+owners:         []
+knowHowPageURI: ""   
 status:			draft
 featured:       true
 ---

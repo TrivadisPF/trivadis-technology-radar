@@ -8,7 +8,7 @@ alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
 owners:         [Konrad Haefeli]
-wHowPageURI:	   ""   
+knowHowPageURI:	   ""   
 status:			draft
 featured:       true
 ---
