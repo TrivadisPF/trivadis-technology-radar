@@ -1,5 +1,5 @@
 ---
-id:             iceberg
+id:             apache-iceberg
 title:      	"Apache Iceberg"
 ring:       	assess
 quadrant:   	languages-and-frameworks
@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz] 
+knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---

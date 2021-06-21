@@ -1,5 +1,5 @@
 ---
-id:             airflow
+id:             apache-airflow
 title:      	"Apache Airflow"
 ring:      		trial
 quadrant:   	platforms-and-services
@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Gudio Schmutz]
+knowHowPageURI:	""   
 status:			draft
 featured:       true
 ---

@@ -1,13 +1,14 @@
 ---
 id:				timescaledb
 title:      	"TimescaleDB"
-ring:       	assess
+ring:       	watch
 quadrant:   	data-management
 relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz] 
+knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---

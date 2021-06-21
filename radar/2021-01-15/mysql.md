@@ -7,9 +7,10 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Konrad Häefeli] 
+knowHowPageURI:	"" 
 status:			draft
 featured:       true
 ---
 
-PostgreSQL ...
+[MySQL](https://www.mysql.com/) is an open-source relational database management system (RDBMS).

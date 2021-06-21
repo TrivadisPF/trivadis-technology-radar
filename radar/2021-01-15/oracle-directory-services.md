@@ -7,9 +7,10 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Stefan Oehrli] 
+knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---
 
-Oracle Internet Directory and Oracle Unified Directory...
+Oracle Directory Services ...

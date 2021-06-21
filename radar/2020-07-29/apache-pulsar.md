@@ -1,5 +1,5 @@
 ---
-id: 			pulsar
+id: 			apache-pulsar
 title:          "Apache Pulsar"
 ring:           watch
 quadrant:       platforms-and-services
@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz] 
+knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---

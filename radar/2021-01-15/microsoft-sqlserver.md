@@ -7,9 +7,10 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Konrad Häefeli] 
+knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---
 
-Oracle Database is a very popular relational database management system.
+[Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/?rtc=1) is a relational database management system developed by Microsoft. 

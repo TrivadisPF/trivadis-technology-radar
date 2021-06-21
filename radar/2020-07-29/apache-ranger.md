@@ -1,5 +1,5 @@
 ---
-id:     		ranger
+id:     		apache-ranger
 title:      	"Apache Ranger"
 ring:       	assess
 quadrant:   	platforms-and-services
@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz]
+knowHowPageURI:	""   
 status:			draft
 featured:       true
 ---

@@ -1,13 +1,14 @@
 ---
 id:				prefect-core
 title:      	"Prefect Core"
-ring:       	assess
+ring:       	watch
 quadrant:   	platforms-and-services
 relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz] 
+knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---

@@ -7,7 +7,8 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Frank Heilmann] 
+knowHowPageURI:	""  
 status:			draft
 featured:       true
 ---

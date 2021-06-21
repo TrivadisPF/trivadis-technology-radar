@@ -1,5 +1,5 @@
 ---
-id:             arrrow
+id:             apache-arrrow
 title:      	"Apache Arrow"
 ring:       	watch
 quadrant:   	languages-and-frameworks
@@ -7,8 +7,9 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [] 
+owners:         [Guido Schmutz] 
 status:			draft
+knowHowPageURI:	""  
 featured:       true
 ---
 
