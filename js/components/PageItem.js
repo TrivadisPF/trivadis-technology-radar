@@ -255,6 +255,7 @@ class PageItem extends React.Component {
                   </div>
                 </div>
               </div>
+              Owner: {item.owners[0]}
               <div
                 className="markdown"
                 dangerouslySetInnerHTML={{ __html: item.body }}
