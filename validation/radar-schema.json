@@ -153,7 +153,9 @@
             ],
             "additionalItems": true,
             "items": {
-                "$id": "#/properties/owners/items"
+                "$id": "#/properties/owners/items",
+                "type": "string",
+                "enum": ["Guido Schmutz","Peter Welker","Frank Heilmann", "Parinaz Ameri", "Markus Bente", "Martin Zablocki", "Konrad Haefeli", "Stefan Oehrli", "Thomas Huber", "Thomas Broell", "Stefan Lengacher", "Christian Dedek", "Roland Stirnimann", "Thomas Gassmann", "Simon Amrein"]
             }
         },
         "knowHowPageURI": {
@@ -163,7 +165,7 @@
             "description": "A link to a page with additional know how on the technology.",
             "default": "",
             "examples": [
-                "http://www.trivadis.com"
+                ""
             ]
         },
         "status": {

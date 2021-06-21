@@ -7,7 +7,7 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [Thmoas Huber] 
+owners:         [Thomas Huber] 
 knowHowPageURI:	""
 status:			draft
 featured:       true

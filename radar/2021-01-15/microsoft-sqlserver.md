@@ -7,7 +7,7 @@ relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
 supportsTvdBB:	[]
-owners:         [Konrad Häefeli] 
+owners:         [Konrad Haefeli] 
 knowHowPageURI:	""  
 status:			draft
 featured:       true
