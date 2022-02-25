@@ -1,5 +1,5 @@
 ---
-id: 			apache-pinot
+id: 			apache-nifi
 title:          "Apache NiFi"
 ring:           adopt
 quadrant:       platforms-and-services
@@ -12,4 +12,4 @@ status:			draft
 featured:       true
 ---
 
-We have used Apache Nifi in various customer projects and we see it as a potential replacement for the open source alternative StreamSets Data Collector, which is no longer actively developed as an open source version. 
+We have used Apache NiFi in various customer projects and we see it as a potential replacement for the open source alternative StreamSets Data Collector, which is no longer actively developed as an open source version. 

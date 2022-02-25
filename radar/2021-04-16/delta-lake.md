@@ -1,7 +1,7 @@
 ---
 id:             delta-lake
 title:      	"Delta Lake"
-ring:       	trial
+ring:       	adopt
 quadrant:   	languages-and-frameworks
 relatedTo:		[]
 alternativeTo:	[]
@@ -13,7 +13,5 @@ status:			draft
 featured:       true
 ---
 
-
-We have used Delta Lake in a first Proof-of-Concept project and so far had good experience with.
-
+Both Open Source version as well as the one being part of the Databricks platform are mature enough to be used.
 
