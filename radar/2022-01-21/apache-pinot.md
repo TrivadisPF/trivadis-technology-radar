@@ -2,7 +2,7 @@
 id: 			apache-pinot
 title:          "Apache Pinot"
 ring:           watch
-quadrant:       architecture-methods-and-patterns
+quadrant:       platforms-and-services
 relatedTo:		[]
 alternativeTo:	[]
 skillsNeeded:	[]
