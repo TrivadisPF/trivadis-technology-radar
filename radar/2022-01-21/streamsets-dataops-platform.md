@@ -15,4 +15,4 @@ featured:       true
 
 [StreamSets DataOps Platform](https://streamsets.com/products/dataops-platform/) is an end-to-end data integration platform to build, run, monitor and manage smart data pipelines. 
 
-It is the replacement offer of StreamSets for the open source [StreamSets Data Collector](./platforms-and-services/streamsets-datacollector.html), which is no longer actively developed.
+It is the replacement offer of StreamSets for the open source [StreamSets Data Collector](./streamsets-datacollector.html), which is no longer actively developed.
