@@ -1,7 +1,7 @@
 ---
 id:				streamsets-transformer
 title:      	"StreamSets Transformer"
-ring:       	assess
+ring:       	hold
 quadrant:   	platforms-and-services
 relatedTo:		[]
 alternativeTo:	[]

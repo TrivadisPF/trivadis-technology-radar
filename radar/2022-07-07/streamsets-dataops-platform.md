@@ -1,7 +1,7 @@
 ---
 id:				streamsets-dataops
 title:      	"StreamSets DataOps Platform"
-ring:       	assess
+ring:       	hold
 quadrant:   	platforms-and-services
 relatedTo:		[]
 alternativeTo:	[apache-nifi,kafka-connect]
